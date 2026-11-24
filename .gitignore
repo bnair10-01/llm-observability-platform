@@ -1,0 +1,26 @@
+# secrets: never commit real keys (only .env.example is tracked)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node
+node_modules/
+dist/
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
+
+# runtime artifacts
+uploads/
+reports/
+benchmarks/out/
